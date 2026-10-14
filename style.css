@@ -1,3 +1,9 @@
+/* ============================================================
+   GAMESTORE — премиальный магазин игр
+   Чистый, современный, доверительный дизайн
+   ============================================================ */
+
+/* ---------- RESET ---------- */
 *,
 *::before,
 *::after {
@@ -451,5 +457,45 @@ a {
   .btn-pay {
     font-size: 0.9375rem;
     padding: 14px 20px;
+  }
+}
+
+
+
+ #copyText{
+ 
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgba(198, 196, 196, 0.475);
+  position: fixed; top: 50px; left: 45%;
+  transform: translateX(-30%);
+
+  font-size: 40px;
+}
+
+#message{
+   position: fixed; top: 150px; left: 47%;
+   font-size: 30px;
+}
+
+
+@media screen and (max-width: 490px) {
+  #copyText {
+    font-size: 25px;
+    margin: 0 auto;
+
+  }
+}
+
+
+
+@media  screen and (max-width: 476px) {
+
+   #copyText {
+    top: 550px;
+    font-size: 25px;
+    margin: 0 auto;
+    
+
   }
 }
